@@ -27,6 +27,7 @@ Documents look like this:
         ],
         "src": "IM",
         "dest": "PK",
+        "region": "JP-13",
         "srcdest": "IM:PK"
      },
      "@tags": [

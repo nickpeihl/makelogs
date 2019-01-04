@@ -31,6 +31,8 @@ sets.ips = new IpGenerator(100, 1000);
 
 sets.countries = new WeightedList(require('./countries'));
 
+sets.regions = new WeightedList(require('./country_regions'));
+
 sets.extensions = new WeightedList({
   'png': 3,
   'gif': 2,

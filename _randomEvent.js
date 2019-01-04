@@ -87,7 +87,8 @@ module.exports = function RandomEvent(indexPrefix) {
   event.geo = {
     coordinates: samples.airports(),
     src: samples.countries(),
-    dest: samples.countries()
+    dest: samples.countries(),
+    region: samples.regions()
   };
   event.geo.srcdest = event.geo.src + ':' + event.geo.dest;
 

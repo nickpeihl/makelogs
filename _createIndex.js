@@ -59,6 +59,9 @@ module.exports = function createIndex() {
               src: {
                 type: 'keyword',
               },
+              region: {
+                type: 'keyword'
+              },
               coordinates: {
                 type: 'geo_point'
               }
